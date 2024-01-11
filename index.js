@@ -1,5 +1,5 @@
 const express = require("express");
-const connect = require("../back-end/database/data");
+const connect = require("./database/data.js");
 const factRoute = require("./router/factRoute");
 
 const app = express();
